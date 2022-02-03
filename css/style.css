@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Khula:wght@300;400;600;700&family=Roboto:wght@100;300;400&display=swap');
+:root{
+	--color-negro:#000;
+	--color-texto:#212529;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	color: var(--color-texto);
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Khula', sans-serif;	
+}
+
+header{
+    background-color: #eee;
+}
+.section{
+	padding:50px 0;
+	min-height:300px;
+}
+
+.header-area.sticky {
+    /*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.10);*/
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99999;
+	transition: 0.3s all ease;
+}
+.header-area.sticky .navbar-light{
+	background-color: #eee !important;
+}
+
+
+
